@@ -1,0 +1,21 @@
+Student ID : 28289985
+Student Name : Xuyang Huang
+OS (bit) :mac
+gcc version :5.4
+
+
+2. Internal Record Format
+  I didn't implemented this feature.
+
+
+
+3. Page Format
+  I didn't implemented this feature.
+
+
+4. Implementation Detail
+  
+
+
+5. Other (optional)
+- Freely use this section to tell us about things that are related to the project 1, but not related to the other sections (optional)
