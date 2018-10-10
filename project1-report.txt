@@ -5,12 +5,12 @@ gcc version :5.4
 
 
 2. Internal Record Format
-  I didn't implemented this feature.
-
+We use a different format:  filed count(4 bytes) + NullIndicator + Pointers to fields(each 4 bytes) + Content
+We change the format because it can copy all content in one time rather than varchar type will restore length before content.
 
 
 3. Page Format
-  I didn't implemented this feature.
+From back: First save freespace(the end offset of all records)(4 bytes), then num of total records(slot num)(4 bytes), then each record start offset(4 bytes) and length(4 bytes).
 
 
 4. Implementation Detail
